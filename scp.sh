@@ -1,7 +1,7 @@
 #!/bin/bash
 SOURCE="/path/to/source/file"
-USER="username"
-DEST_IP="192.168.1.10"
+USER="Akil"
+DEST_IP="192.168.1.109"
 DEST_PATH="/path/to/destination/"
 echo "Starting backup using SCP..."
 scp "$SOURCE" "$USER@$DEST_IP:$DEST_PATH"
